@@ -1,12 +1,13 @@
 import React from 'react';
 
 import { Container, Row, Col } from "reactstrap";
-import {link }
+import { Link } from "react-router-dom";
+import '../../styles/header.css';
 
 const Header = () => {
-	return <Header className="Header">
+	return ( <header className="header">
 		{ /* ------ Header Top ------ */}
-		<div className="Header_top">
+		<div className="header_top">
 			<Container>
 				<Row>
 					<Col lg='6' md='6' sm='6'>
@@ -20,13 +21,18 @@ const Header = () => {
 
 					<Col lg='6' md='6' sm='6'>
 						<div className="header__top__right">
-						<Link to='#'> <i class ="ri-login-circle-line"></i>Login</Link>
+							<Link to='#'> <i class="ri-login-circle-line"></i> Login
+							</Link>
+
+							<Link to='#'> <i class="ri-login-circle-line"></i> Register
+							</Link>
 						</div>
 					</Col>
 				</Row>
 			</Container>
 		</div>
-	</Header>;
+	</header>
+	);
 };
 
 export default Header;
