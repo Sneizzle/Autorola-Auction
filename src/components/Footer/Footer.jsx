@@ -32,12 +32,15 @@ const quickLinks = [
 
 ]
 
-const Footer = () => {
+const Footer = () => { 
+
+    const date = new Date()
+    const year = date.getFullYear()
 	return ( <footer className="footer">
                <Container>
                    <Row>
                        <Col lg="4" md="4" sm="12">
-                           <div className="logo">
+                           <div className="logo footer__logo">
                                <h1>
                                    <Link to="/home" className=" d-flex align-items-center gap-2">
                                        <i class="ri-car-line"></i>
@@ -57,7 +60,7 @@ const Footer = () => {
                                <h5 className="footer__link-title">Quick Links</h5>
                                <ListGroup>
                                    {quickLinks.map((item, index) => (
-                                        <ListGroupItem key={index} className="p-0, mt-3">
+                                        <ListGroupItem key={index} className="p-0, mt-3, quick__link">
                                             <Link to={item.path}>{item.display}</Link>
                                        </ListGroupItem>
                                    ))}
@@ -66,7 +69,7 @@ const Footer = () => {
                        </Col>
                             <Col lg="3" md="4" sm="6">
                                 <div className="md-4">
-                        <h5 className="footer__link-title">Hovedkontor</h5>
+                        <h5 className="footer__link-title mb-4">Hovedkontor</h5>
                         <p className="office__info">Odense,Denmark</p>
                         <p className="office__info">Telefon: +45 93870420</p>
                         <p className="office__info">Email: Jkla40320@edu.ucl.dk</p>
@@ -85,6 +88,17 @@ const Footer = () => {
                             </span>
                         </div>
                     </div>
+                </Col>
+
+
+                <Col lg="12">
+                    <div className="footer__bottom">
+                        <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
+                        <i class="ri-copyright-line"></i>Copyright {year}, Developed by John Lange. All rights reserved.
+                        </p>
+
+                    </div>
+
                 </Col>
             </Row>
         </Container>
