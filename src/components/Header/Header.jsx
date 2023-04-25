@@ -26,7 +26,10 @@ const navLinks = [
         path: '/contact',
         display: 'Contact'
     },
-    
+    {
+        path: '/details',
+        display: 'Details'
+    },
 ]
 
 const Header = () => {

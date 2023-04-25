@@ -5,8 +5,9 @@
     "\\src\\Assets",
     "\\src\\components",
     "\\src\\components\\Header",
-    "\\src\\pages"
+    "\\src\\pages",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\styles\\header.css",
   "PreviewInSolutionExplorer": false
 }
