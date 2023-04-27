@@ -3,11 +3,11 @@
     "",
     "\\src",
     "\\src\\Assets",
+    "\\src\\Assets\\all-images",
+    "\\src\\Assets\\all-images\\slider-img",
     "\\src\\components",
-    "\\src\\components\\Header",
-    "\\src\\pages",
-    "\\src\\styles"
+    "\\src\\components\\UI"
   ],
-  "SelectedNode": "\\src\\styles\\header.css",
+  "SelectedNode": "\\src\\Assets\\all-images\\slider-img",
   "PreviewInSolutionExplorer": false
 }
