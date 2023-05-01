@@ -25,7 +25,12 @@ const FindCarForm = () => {
         </FormGroup>
 
         <FormGroup className="form__group">
-            <input type="time" placeholder="Tid" required/>
+                    <input
+                        className="rejse__tid"
+                        type="time"
+                        placeholder="Tid"
+                        required
+                    />
         </FormGroup>
 
         <FormGroup className="select__group">
@@ -36,7 +41,7 @@ const FindCarForm = () => {
         </FormGroup>
 
         <FormGroup className = "form__group">
-            <button className="btn find__car-btn">Find Bil</button>
+            <button className="find__car-btn">Find Bil</button>
         </FormGroup>
     </div>
     </Form>
