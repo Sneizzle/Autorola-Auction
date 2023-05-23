@@ -70,7 +70,7 @@ const Footer = () => {
                             <Col lg="3" md="4" sm="6">
                                 <div className="md-4">
                         <h5 className="footer__link-title mb-4">Hovedkontor</h5>
-                        <p className="office__info">Odense,Denmark</p>
+                        <p className="office__info">Odense, Denmark</p>
                         <p className="office__info">Telefon: +45 93870420</p>
                         <p className="office__info">Email: Jkla40320@edu.ucl.dk</p>
                         <p className="office__info">Kontortid 10:00 - 19:00</p>
@@ -80,7 +80,7 @@ const Footer = () => {
                 <Col lg="3" md="4"sm="12">
                     <div className="mb-4">
                         <h5 className="footer__link-title">Nyhedsbrev</h5>
-                        <p className="section__description">Tilmeld dig vores nyhedsbrev</p>
+                        <p className="section__description-offer">Tilmeld dig vores nyhedsbrev</p>
                         <div className="newsletter">
                             <input type="email" placeholder="Email" />
                             <span>

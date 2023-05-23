@@ -8,15 +8,17 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/contact";
+import APIthing from "../pages/contact";
 /* karousselen*/
 import Details from "../pages/details";
+import AboutSection from "../components/UI/AboutSection";
 
 const Routers = () => {
     return (
         <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<AboutSection />} />
             <Route path="/cars" element={<CarListing />} />
                   {/* karousellen*/}
              <Route path="/details" element={<Details />} />
@@ -24,7 +26,7 @@ const Routers = () => {
             <Route path="/cars/:slug" element={<CarDetails />} />
             <Route path="/blogs" element={<Blog />} />
             <Route path="/blogs/:slug" element={<BlogDetails />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<APIthing />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

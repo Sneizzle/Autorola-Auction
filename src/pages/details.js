@@ -23,7 +23,8 @@ const Details = () => {
 	const containerStyles = {
 		width: '500px',
 		height: '280px',
-		margin: '0 auto',
+        margin: "40px auto"
+		
 	};
 	return (
 		<div>

@@ -2,12 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Assets",
-    "\\src\\Assets\\all-images",
-    "\\src\\Assets\\all-images\\slider-img",
     "\\src\\components",
-    "\\src\\components\\UI"
+    "\\src\\components\\Helmet",
+    "\\src\\components\\Layout",
+    "\\src\\components\\Navbar.In",
+    "\\src\\components\\UI",
+    "\\src\\pages",
+    "\\src\\routers",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\Assets\\all-images\\slider-img",
+  "SelectedNode": "\\src\\styles\\footer.css",
   "PreviewInSolutionExplorer": false
 }

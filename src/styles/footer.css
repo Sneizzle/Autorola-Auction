@@ -40,6 +40,10 @@
     color: #fff;
 }
 
+.footer__link-title p {
+    color: #fff;
+}
+
 
 .office__info {
     color: rgba(255, 255, 255, 0.715);
@@ -74,9 +78,13 @@
 }
 
 
-.section__description {
+.section__description-offer {
     color: rgba(255, 255, 255, 0.715);
 }
+
+/*.footer__link-title {
+    color: rgba(255,255,255,0.715)
+}*/
 
 /* ------ settings hvis man er på telefon ------*/
 @media only screen and (max-width: 768px) {

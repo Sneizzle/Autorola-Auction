@@ -1,3 +1,23 @@
 .section__description {
     color: black;
 }
+
+
+
+/*.about__img-settings {
+    max-width: 200px;
+}*/
+/*.about__img {
+
+    height: 400px;
+    
+}*/
+
+.about__section-item {
+    column-gap: 3rem;
+}
+
+.about__section-item p i{
+    color: #f9a826;
+    font-size: 1.1rem;
+}
