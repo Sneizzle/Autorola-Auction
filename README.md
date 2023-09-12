@@ -1,5 +1,6 @@
-#![autorola1](https://github.com/Sneizzle/autorola/assets/94366722/874f3d81-1bc5-4fe9-b845-231360a339aa)
-![autorola2](https://github.com/Sneizzle/autorola/assets/94366722/014d3d70-f8ff-4014-af44-57a36f157085)
+
+![autorola2](https://github.com/Sneizzle/Autorola-Auction/assets/94366722/f6564b28-ecd0-4a61-a869-3496929a16a3)
+![autorola1](https://github.com/Sneizzle/Autorola-Auction/assets/94366722/ebea485d-4baa-409f-909a-1a7b700c42c3)
 
  Getting Started with Create React App
 
