@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+#![autorola1](https://github.com/Sneizzle/autorola/assets/94366722/874f3d81-1bc5-4fe9-b845-231360a339aa)
+![autorola2](https://github.com/Sneizzle/autorola/assets/94366722/014d3d70-f8ff-4014-af44-57a36f157085)
+
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
